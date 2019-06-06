@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec838fa-4d2b-482b-bc47-f6b83e8d5e3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-helper-define-map/.package-lock.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-template/.package-lock.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-traverse/.package-lock.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/DBQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/DBQuery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/MainRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/MainRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/MongoConnectionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/MongoConnectionForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/MongoConnectionFormContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/MongoConnectionFormContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/MongoDBManagementContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/MongoDBManagementContainer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/src/DBQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="465">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -87,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/src/MongoConnectionForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="78">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -166,13 +156,13 @@
         <option value="$PROJECT_DIR$/public/src/SignInOrOutLink.js" />
         <option value="$PROJECT_DIR$/public/src/Menu.js" />
         <option value="$PROJECT_DIR$/public/src/Home.js" />
-        <option value="$PROJECT_DIR$/public/src/MongoConnectionForm.js" />
         <option value="$PROJECT_DIR$/public/src/MongoConnectionFormContainer.js" />
         <option value="$PROJECT_DIR$/public/src/App.js" />
         <option value="$PROJECT_DIR$/public/src/MongoDBManagementContainer.js" />
         <option value="$PROJECT_DIR$/public/src/Content.js" />
         <option value="$PROJECT_DIR$/public/src/MainRouter.js" />
         <option value="$PROJECT_DIR$/public/src/DBQuery.js" />
+        <option value="$PROJECT_DIR$/public/src/MongoConnectionForm.js" />
       </list>
     </option>
   </component>
@@ -259,12 +249,12 @@
       <workItem from="1559347984275" duration="622000" />
       <workItem from="1559681105573" duration="3537000" />
       <workItem from="1559704705242" duration="1953000" />
-      <workItem from="1559769670931" duration="16063000" />
+      <workItem from="1559769670931" duration="16575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26180000" />
+    <option name="totallyTimeSpent" value="26692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="39" width="1205" height="715" extended-state="0" />
@@ -533,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/MongoConnectionForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/src/MongoConnectionFormContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -597,8 +577,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/DBQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="465">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/MongoConnectionForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
