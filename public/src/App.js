@@ -7,10 +7,10 @@ import Content from './Content'
 const styles = theme => ({
     root: {
         flexGrow: 1,
-        marginLeft: theme.spacing.unit * 1,
-        marginRight: theme.spacing.unit * 1,
-        marginTop: theme.spacing.unit * 1,
-        marginBottom: theme.spacing.unit * 1,
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+        marginTop: theme.spacing(1),
+        marginBottom: theme.spacing(1),
     },
     box1: {
         background: 'blue'

@@ -12,8 +12,8 @@ const Home = (props) => {
 }
 
 Home.propTypes = {
-        handleLogin: PropTypes.func.isRequired,
-        handleusercredentials: PropTypes.func.isRequired
+        handleLogin: PropTypes.func,
+        handleusercredentials: PropTypes.func
 }
 
 export default Home

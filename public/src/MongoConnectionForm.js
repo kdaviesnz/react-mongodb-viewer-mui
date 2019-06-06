@@ -37,8 +37,8 @@ const MongoConnectionForm = (props) => {
 }
 
 MongoConnectionForm.propTypes = {
-    handleLogin: PropTypes.func.isRequired,
-    handleusercredentials: PropTypes.func.isRequired
+    handleLogin: PropTypes.func,
+    handleusercredentials: PropTypes.func
 }
 
 export default withStyles(styles)(MongoConnectionForm);

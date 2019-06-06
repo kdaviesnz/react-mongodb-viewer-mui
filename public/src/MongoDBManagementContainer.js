@@ -15,10 +15,10 @@ import PropTypes from "prop-types";
 const styles = theme => ({
     root: {
         flexGrow: 1,
-        marginLeft: theme.spacing.unit * 1,
-        marginRight: theme.spacing.unit * 1,
-        marginTop: theme.spacing.unit * 1,
-        marginBottom: theme.spacing.unit * 1,
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+        marginTop: theme.spacing(1),
+        marginBottom: theme.spacing(1),
     }
 });
 
@@ -223,8 +223,8 @@ class MongoDBManagementContainer extends React.Component {
 }
 
 MongoDBManagementContainer.propTypes = {
-    handleLogin: PropTypes.func.isRequired,
-    handleusercredentials: PropTypes.func.isRequired
+    handleLogin: PropTypes.func,
+    handleusercredentials: PropTypes.func
 }
 
 export  default withStyles(styles)(MongoDBManagementContainer);

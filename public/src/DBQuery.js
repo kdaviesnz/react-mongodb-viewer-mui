@@ -29,7 +29,7 @@ const DBQuery = (props) => {
 }
 
 DBQuery.propTypes = {
-    handlequery: PropTypes.func.isRequired,
+    handlequery: PropTypes.func,
 }
 
 export default withStyles(styles)(DBQuery);

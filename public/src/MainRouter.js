@@ -35,8 +35,8 @@ const MainRouter = (props) => {
 }
 
 MainRouter.propTypes = {
-    handleLogin: PropTypes.func.isRequired,
-    handleusercredentials: PropTypes.func.isRequired
+    handleLogin: PropTypes.func,
+    handleusercredentials: PropTypes.func
 }
 
 
